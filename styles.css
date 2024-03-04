@@ -1,0 +1,55 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(93, 167, 252);
+    padding: 20px 20px 20px 0;
+}
+
+.caja-principal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-a{
+    width: calc(2em + 10%)
+
+}
+
+h1{
+    margin: 0;
+    
+}
+
+
+
+.nav-menu{
+    width: 50%;
+    text-align: right;
+}
+
+.item-list{
+    display: inline;
+    margin: 0 15px 0 0 ;
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgb(245, 174, 81);
+    text-decoration: underline;
+}
+
