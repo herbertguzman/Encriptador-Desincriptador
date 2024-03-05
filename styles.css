@@ -1,4 +1,10 @@
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -7,8 +13,8 @@ body{
 }
 
 header{
-    background-color: rgb(93, 167, 252);
-    padding: 20px 20px 20px 0;
+    background-color: #D8DFE8;
+    padding: 3% 3% 3% 3%;
 }
 
 .caja-principal{
@@ -19,7 +25,7 @@ header{
 }
 
 .logo-a{
-    width: calc(2em + 10%)
+    width: calc(1em + (8%))
 
 }
 
@@ -53,3 +59,41 @@ a:hover{
     text-decoration: underline;
 }
 
+.textos-label{
+    display: block;
+    margin: 1% 1% 1% 1%;
+
+}
+
+.texto-usurio{
+    display: block;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1%;
+    width: 40%;
+}
+
+.boton{
+    margin: 0% 1% 1% 1%;
+    background-color: #162944;
+    color: #fff;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0.5em;
+    padding: 0.3em 0.3em;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 1s;
+    -moz-transition: ease-out 1s;
+    transition: 1s ease-out 1s;
+}
+
+.boton-encriptar:hover{
+    box-shadow: inset 40em 0 0 5em #D80286;
+    
+}
+
+.boton-desencriptar:hover{
+    box-shadow: inset 40em 5em 0 0 #D80286;
+    
+}
