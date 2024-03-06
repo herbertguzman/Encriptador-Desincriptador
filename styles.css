@@ -25,7 +25,7 @@ header{
 }
 
 .logo-a{
-    width: calc(1em + (8%))
+    width: calc(2em + (8%))
 
 }
 
@@ -68,9 +68,54 @@ a:hover{
 
 .caja-contenido1{
     width: 50%;
+    
+
+}
+
+.texto-lable{
+    display: block;
+    margin: 1% 1% 1% 1%;
+}
+
+.texto-usuario{
+    display: block;
+    margin: 1% 1% 1% 1%;
+}
+
+.boton{
+    margin: 1% 1% 1% 1%;
+    display: inline-block;
+    background-color: #162944;
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 0.3em 0.3em;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    transition: 1s ease-out 1s;
+}
+
+.boton-encriptar:hover{
+    box-shadow: inset 40em 5em 0 0 #D80286;
+    
+}
+
+.boton-desencriptar:hover{
+    box-shadow: inset 40em 5em 0 0 #D80286;
+    
 }
 
 .caja-contenido2{
     width: 50%;
+    border: solid #162944;
+    border-width: 0.03em;
+    margin: 1% 1% 0 0;
+    border-radius: 0.3em;
+    text-align: center;
+
+
+}
+
+.drawboy{
+    width: calc(15em + (7%))
 }
 
