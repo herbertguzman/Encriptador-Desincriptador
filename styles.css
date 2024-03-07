@@ -60,10 +60,11 @@ a:hover{
 }
 
 .caja-contenido{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1% 1% 1% 1%;
 }
 
 .caja-contenido1{
@@ -80,6 +81,7 @@ a:hover{
 .texto-usuario{
     display: block;
     margin: 1% 1% 1% 1%;
+    width: 90%;
 }
 
 .boton{
@@ -106,16 +108,21 @@ a:hover{
 
 .caja-contenido2{
     width: 50%;
-    border: solid #162944;
-    border-width: 0.03em;
     margin: 1% 1% 0 0;
+    padding: 1% 1% 1% 1%;
     border-radius: 0.3em;
     text-align: center;
-
-
+    box-shadow: 0.3em 0.3em 0.4em #162944;
 }
 
 .drawboy{
-    width: calc(15em + (7%))
+    max-width: 90%;
+    height: 70%;
+
+
 }
 
+.text-informativo{
+    max-width: 90%;
+    max-height: 30%;
+}
