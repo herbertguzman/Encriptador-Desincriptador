@@ -34,8 +34,9 @@
                 <form action="">
                     <label for="texto-del-usuario" class="texto-label">Bienvenido a mi encriptador de texto</label>
                     <textarea class="texto-usuario" name="txt del usuario" id="texto-del-usuario" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-                    <input type="submit" value="Encriptar" class="boton boton-encriptar">
-                    <input type="submit" value="Desencriptar" class="boton boton-desencriptar">
+                    <p class="mensaje-advertencia">&#9888; Solo letras minúsculas y sin acentos</p>
+                    <input type="submit" value="Encriptar" class="boton" id="cajaEncriptar">
+                    <input type="submit" value="Desencriptar" class="boton botonDesencriptar" id="cajaDesencriptar">
                 </form>
             </section>
             <section class="caja-contenido2">
@@ -53,5 +54,8 @@
     <footer>
         <p>© 2024 Mi Sitio Web</p>
     </footer>
+
+    <script src="inputs.js"></script>
+
 </body>
 </html>
