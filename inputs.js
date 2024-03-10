@@ -1,7 +1,10 @@
-const boton = document.querySelector('cajaEncriptar');
+let txtIngresado = '';
 
-function botonclick(){
-    console.log("click");
+
+function IntentoEncriptar() {
+    let txtArea = document.getElementById('textoDeUsuario');
+    txtIngresado = txtArea.value;
+
+    console.log("El texto ingresado es", txtIngresado);
 }
 
-boton.addEventListener('click',botonclick);
