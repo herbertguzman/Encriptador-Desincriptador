@@ -12,7 +12,10 @@ function IntentoEncriptar() {
     let txtArea = document.getElementById('textoDeUsuario');
     txtAEncriptar = txtArea.value;
 
-    matrizReemplazos.forEach(({original, remplazo}) =>{txtAEncriptar.replace(original, remplazo);});
+    matrizReemplazos.forEach(({original, remplazo}) =>{
+        txtAEncriptar = txtAEncriptar.replace(original, remplazo);
+    });
 
     console.log(txtAEncriptar);
 }
+
