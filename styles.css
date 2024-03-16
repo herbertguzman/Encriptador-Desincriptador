@@ -101,9 +101,9 @@ a:hover{
     cursor: pointer;
 }
 
-.boton.botonEncriptar{
-    background-color: white;
-    color: #162944;
+.boton:hover{
+    transform: scale(1.2);
+    color: orange;
 }
 
 
@@ -126,4 +126,14 @@ a:hover{
 .text-informativo{
     max-width: 90%;
     max-height: 30%;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+.titulo-informativo{
+    margin: 1% 1% 1% 1%;
+}
+
+.p-informativo{
+    margin: 2% 1% 1% 1%;
 }

@@ -42,9 +42,11 @@
             <section class="caja-contenido2">
                 <img src="image/Muneco.png" alt="dibujo-persona" class="drawboy">
                 <div class="text-informativo">
-                <h2 class="titulo-informativo">Ningún mensaje fue encontrado</h2>
-                <p class="p-informativo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <h2 class="titulo-informativo" id="mnsEncontrado">Ningún mensaje fue encontrado</h2>
+                <p class="p-informativo" id="textDeSalida">Ingresa el texto que desees encriptar o desencriptar.</p>
                 </div>
+                <input onclick="btnCopy();" type="button" value="Copiar" class="boton botonCopiar" id="cajaCopiar">
+                <input onclick="btnRest();" type="button" value="Reinciar" class="boton botonReinciar" id="cajaReinciar" disabled>
             </section>
 
         </div>
